@@ -1,0 +1,117 @@
+* {
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #073a67d6;
+}
+
+.page {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+    justify-content: space-evenly;
+    background: rgb(48, 44, 108);
+    background: linear-gradient(138deg, rgba(48, 44, 108, 1) 10%, rgba(15, 11, 84, 0.9708216050091911) 37%, rgba(0, 0, 0, 1) 72%);
+}
+
+#org-name {
+    font-size: 41px;
+    display: inline-block;
+
+    position: relative;
+    top: -22px;
+    background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 1) 19%, rgba(255, 87, 0, 1) 69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.heading {
+    flex-basis: 100%;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    font-size: 40px;
+    color: white;
+
+}
+
+.navlist {
+    width: 1503px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    padding: 10px 20px;
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(255, 249, 249);
+}
+
+.right {
+    border: 2px solid white;
+    padding: 10px 20px;
+}
+
+.content {
+    display: flex;
+}
+
+section {
+    border: 2px solid palegreen;
+    width: 1536px;
+
+}
+
+.image {
+    width: 913px;
+    margin: 3px 0px 0px 47px;
+    padding: 0 51px;
+    border-radius: 20px;
+}
+
+.head {
+    margin: 45px 0 0px 97px;
+
+}
+
+.head h2 {
+    color: #fff;
+}
+
+.top {
+    color: #fff;
+    background: rgb(251, 251, 255);
+    background: linear-gradient(90deg, rgba(251, 251, 255, 0.6486927534685749) 2%, rgba(2, 0, 36, 1) 9%, rgba(9, 9, 118, 1) 17%, rgba(0, 212, 255, 1) 46%, rgba(9, 9, 118, 1) 78%, rgba(2, 0, 36, 1) 88%, rgba(230, 230, 231, 0.5618580195750176) 98%);
+    text-align: center;
+    margin: 23px 0;
+}
+
+.footer {
+    background-color: rgba(36, 36, 40, 0.808);
+    color: #fff;
+    display: grid;
+    grid-gap: 20px 10px;
+    grid-template-columns: auto auto;
+}
+.foot{
+    border: 2px solid red;
+
+}

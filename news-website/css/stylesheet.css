@@ -1,0 +1,32 @@
+.nav {
+    margin-top: -8px;
+}
+
+.nav .left {
+    width: 500px;
+    margin: 47px 48px;
+    border: 2px solid red;
+}
+
+.right {
+    width: 600px;
+    margin: -22px 0px 0px 901px;
+    position: relative;
+    top: -65px;
+
+    /* border: 1px solid red; */
+}
+
+.nav-right {
+
+    display: inline;
+    text-align: center;
+    list-style-type: none;
+    margin-top: 0px;
+    height: 35.6px;
+    width: 200px;
+    padding: 22px;
+    /* bottom: -50px; */
+    position: relative;
+    border: 2px solid red;
+}
